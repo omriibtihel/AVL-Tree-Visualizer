@@ -1,0 +1,18 @@
+#Titre {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-fill: #3498db;
+}
+
+#insert, #delete, #search {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 5px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#insert:hover, #delete:hover, #search:hover {
+    -fx-background-color: #2980b9;
+}
